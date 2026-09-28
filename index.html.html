@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="AM COMPUTER, Paranda — computer sales and service, laptop and printer repairing, and CCTV installation.">
+<title>AM COMPUTER | Paranda</title>
+<style>
+:root{--navy:#071426;--blue:#087cf0;--cyan:#00d5ef;--yellow:#ffdf00;--white:#f7fbff;--muted:#b9c8da}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f3f6fb;color:#101828}
+header{background:var(--navy);color:white;padding:18px 6%;display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap}
+.brand{font-size:1.7rem;font-weight:900;letter-spacing:1px}.brand span{color:var(--cyan)}
+nav a{color:white;text-decoration:none;margin:0 10px;font-weight:700;font-size:.95rem}
+.hero{background:radial-gradient(circle at 80% 25%,#124b88 0,transparent 35%),linear-gradient(120deg,#06101f,#0b2b50);color:white;padding:70px 6%;display:grid;grid-template-columns:1.2fr .8fr;gap:30px;align-items:center}
+.hero h1{font-size:clamp(2.4rem,5vw,4.7rem);line-height:1.02;margin:0 0 18px}.hero h1 span{color:var(--cyan)}
+.hero p{font-size:1.15rem;line-height:1.7;color:#d5e4f5;max-width:650px}
+.cta{display:inline-block;background:var(--yellow);color:#101828;padding:15px 24px;border-radius:30px;text-decoration:none;font-weight:900;margin:10px 10px 0 0}
+.cta.secondary{background:var(--blue);color:white}.hero-card{border:1px solid #2b6595;background:#ffffff0d;border-radius:24px;padding:30px;text-align:center}
+.hero-card .emoji{font-size:4.8rem}.hero-card h2{margin:10px 0;color:var(--cyan)}
+section{padding:60px 6%}.section-title{text-align:center;font-size:2rem;margin:0 0 12px;color:#0a2342}.sub{text-align:center;color:#58677b;margin:0 auto 35px;max-width:650px;line-height:1.6}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{background:white;border-radius:18px;padding:26px;box-shadow:0 8px 28px #102a4a12;border:1px solid #e5ebf3}.card .icon{font-size:2.4rem}.card h3{margin:12px 0 8px;color:#0a2342}.card p{color:#5b6878;line-height:1.6;margin-bottom:0}
+.products{background:#eaf1f8}.product-list{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.product{background:white;border-radius:14px;padding:22px 14px;text-align:center;font-weight:800;color:#153452;border:1px solid #dce6f1}
+.contact{background:var(--navy);color:white}.contact .section-title{color:white}.contact .sub{color:#c4d4e6}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;max-width:900px;margin:auto}.contact-box{background:#ffffff0d;border:1px solid #31516f;border-radius:16px;padding:25px}.contact-box a{color:var(--cyan);text-decoration:none;overflow-wrap:anywhere}
+footer{text-align:center;padding:22px;background:#030a13;color:#9db0c5;font-size:.9rem}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:48px}.cards{grid-template-columns:1fr}.product-list{grid-template-columns:repeat(2,1fr)}.contact-grid{grid-template-columns:1fr}nav{width:100%}nav a{display:inline-block;margin:8px 12px 0 0}}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand"><span>AM</span> COMPUTER</div>
+  <nav><a href="#services">Services</a><a href="#products">Products</a><a href="#contact">Contact</a></nav>
+</header>
+<main>
+  <div class="hero">
+    <div>
+      <p style="color:#ffdf00;font-weight:800;letter-spacing:2px;margin:0 0 12px">YOUR DIGITAL PARTNER</p>
+      <h1>AM <span>COMPUTER</span></h1>
+      <p>Computer sales and service, laptop & PC repairing, printer repairing, and CCTV installation — all at one place in Paranda.</p>
+      <a class="cta" href="https://wa.me/918600445009" target="_blank" rel="noopener">Chat on WhatsApp</a>
+      <a class="cta secondary" href="tel:+918600445009">Call 8600445009</a>
+    </div>
+    <div class="hero-card"><div class="emoji">💻 🖨️ 📹</div><h2>Sales • Service • Repair</h2><p style="color:#d5e4f5;line-height:1.6">Computers, printers, CCTV cameras and accessories with local support.</p></div>
+  </div>
+
+  <section id="services">
+    <h2 class="section-title">Our Services</h2>
+    <p class="sub">Reliable technology support for home, shop, office and business needs.</p>
+    <div class="cards">
+      <article class="card"><div class="icon">💻</div><h3>Computer & Laptop</h3><p>Computer and laptop sales, servicing, troubleshooting, software support and repairing.</p></article>
+      <article class="card"><div class="icon">🖨️</div><h3>Printer Repairing</h3><p>Printer diagnosis, maintenance and repair support for common printing problems.</p></article>
+      <article class="card"><div class="icon">📹</div><h3>CCTV Installation</h3><p>CCTV camera sales, installation and setup to help monitor your home or business.</p></article>
+    </div>
+  </section>
+
+  <section class="products" id="products">
+    <h2 class="section-title">Products & Accessories</h2>
+    <p class="sub">Ask us about availability and current prices.</p>
+    <div class="product-list">
+      <div class="product">Desktop PCs</div><div class="product">Laptops</div><div class="product">Printers</div><div class="product">CCTV Cameras</div>
+      <div class="product">Keyboards & Mouse</div><div class="product">Computer Accessories</div><div class="product">Storage & SSD</div><div class="product">Networking Items</div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="section-title">Visit or Contact Us</h2>
+    <p class="sub">For product availability, service enquiries and CCTV installation, contact AM COMPUTER.</p>
+    <div class="contact-grid">
+      <div class="contact-box"><h3>📍 Shop Address</h3><p>Front of New Tahsil Office,<br>Paranda – 413502, Maharashtra</p></div>
+      <div class="contact-box"><h3>📞 Phone / WhatsApp</h3><p><a href="https://wa.me/918600445009" target="_blank" rel="noopener">8600445009</a></p><h3>✉ Email</h3><p><a href="mailto:amcomputers121@gmail.com">amcomputers121@gmail.com</a></p><h3>📷 Instagram</h3><p><a href="https://www.instagram.com/am.co.service/" target="_blank" rel="noopener">@am.co.service</a></p></div>
+    </div>
+  </section>
+</main>
+<footer>© 2026 AM COMPUTER, Paranda. All rights reserved.</footer>
+</body>
+</html>
